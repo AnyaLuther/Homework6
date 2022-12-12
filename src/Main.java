@@ -57,13 +57,13 @@ public class Main {
             System.out.println("Потребуется 1 день.");
         } else {
             if (deliveryDistance > 100) {
-                System.out.println("Доставки нет");
+                System.out.println("Доставки нет.");
             } else {
                 if (deliveryDistance >= 60) {
-                    System.out.println("Потребуется 3 дня");
+                    System.out.println("Потребуется 3 дня.");
                 } else {
                     if (deliveryDistance >= 20) {
-                        System.out.println("Потребуется 2 дня");
+                        System.out.println("Потребуется 2 дня.");
                     }
                 }
             }
